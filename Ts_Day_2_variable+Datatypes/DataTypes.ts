@@ -1,4 +1,5 @@
 let age: number = 25; // Number type
+let height: number = 5.9; // float number type
 let name: string = "Ejaz"; // String type
 let isActive: boolean = true; // Boolean type
 let items: number[] = [1, 2, 3]; // Array of numbers
