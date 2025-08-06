@@ -1,14 +1,15 @@
-let age: number = 25;
-let name: string = "Ejaz";
-let isActive: boolean = true;
-let items: number[] = [1, 2, 3];
-let user: { name: string; age: number } = { name: "Ejaz", age: 21 };
+let age: number = 25; // Number type
+let name: string = "Ejaz"; // String type
+let isActive: boolean = true; // Boolean type
+let items: number[] = [1, 2, 3]; // Array of numbers
+let user: { name: string; age: number } = { name: "Ejaz", age: 21 }; // Object with specific structure
 
 
-console.log(`User: ${user.name}, Age: ${user.age}, Active: ${isActive}`);
-console.log(name, age, items);
-console.log(`Items: ${items.join(", ")}`);
-console.log(`Is Active: ${isActive}`);
+console.log(`User: ${user.name}, Age: ${user.age}, Active: ${isActive}`); // Output user details
+console.log(name, age, items); // Output name, age, and items
+console.log(`Items: ${items.join(", ")}`); // Output items as a comma-separated string
+console.log(`Is Active: ${isActive}`); // Output isActive status
+// This code is written in TypeScript and uses ESNext module system
 
 
 
