@@ -1,3 +1,4 @@
+// Vehicle is a parent class
 class Vehicle {
     constructor(public brand: string) {}
   
@@ -5,6 +6,9 @@ class Vehicle {
       console.log(`${this.brand} is moving.`);
     }
   }
+
+
+  // Car is a child class of Vehicle
   
   class Car extends Vehicle {
     public honk(): void {
@@ -12,7 +16,7 @@ class Vehicle {
     }
   }
   
-  const myCar2 = new Car("Honda");
-  myCar2.drive();
-  myCar2.honk();
+  const myCar2 = new Car("Honda"); // myCar2 is an instance of Car  
+  myCar2.drive(); // Car has access to the drive method of Vehicle
+  myCar2.honk(); // Car has access to the honk method of Car
   
