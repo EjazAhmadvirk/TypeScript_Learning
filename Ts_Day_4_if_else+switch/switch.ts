@@ -12,3 +12,5 @@ switch(grade) {
     default:
         console.log("Keep trying!");
 }
+// Output: Good job!
+// This code uses a switch statement to evaluate the variable 'grade' and print a message based 

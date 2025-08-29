@@ -5,6 +5,6 @@ if(amount >= 2000) {
     } else {
         console.log("You are eligible for a standard account.");
     }
-else {
+}else {
     console.log("You are not eligible for any account.");
 }
