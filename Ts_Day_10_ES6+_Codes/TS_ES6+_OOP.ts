@@ -15,13 +15,13 @@ class Person {
         return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
     }
 
-    // Getter for private property
+    // Getter for private property //private property can be accessed only inside the class
     getSSN(): string {
         return this.ssn;
     }
 }
 
-// Inheritance
+// Inheritance is a way to create a new class from an existing class
 class Employee extends Person {
     constructor(name: string, age: number, ssn: string, public position: string) {
         super(name, age, ssn);
